@@ -8,7 +8,7 @@ interface Product {
 
 const usernames: string[] = ["alice", "bob", "charlie"];
 
-const ratings: Array<number> = [4.5, 3.8, 5];
+const ratings: number[] = [4.5, 3.8, 5];
 
 const products: Product[] = [
   { id: 1, title: "Phone" },
